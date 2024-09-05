@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.main {
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    display: grid;
+    grid-template-areas: '1 2 3'
+                         '4 5 6'
+                         '7 8 9 '
+                         '10 11 12';
+
+         padding: 15px;
+         align-items: center;
+         justify-content: space-around;    
+                     
+
+}
+
+
+.btn {
+
+    height: 30px;
+    width: 40px;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+
+#bt1 {
+    grid-area: 1;
+}
+
+#bt2 {
+    grid-area: 2;
+}
+
+#bt3 {
+    grid-area: 3;
+}
+
+#bt4 {
+    grid-area: 4;
+}
+
+#bt5 {
+    grid-area: 5;
+}
+
+#bt6 {
+    grid-area: 6;
+}
+
+#bt7 {
+    grid-area: 7;
+}
+
+#bt8 {
+    grid-area: 8;
+}
+
+#bt9 {
+    grid-area: 9;
+}
+
+#bt10 {
+    grid-area: 10;
+}
+
+#bt11 {
+    grid-area: 11;
+}
+
+#bt12 {
+    grid-area: 12;
+}
